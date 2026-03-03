@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex Morgan | Personal Website</title>
+    <meta
+      name="description"
+      content="A modern personal website for Alex Morgan — designer, developer, and storyteller."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="logo" href="#home">Alex Morgan</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle color theme">🌙</button>
+    </header>
+
+    <main id="home">
+      <section class="hero section">
+        <p class="eyebrow">Hi, I’m Alex —</p>
+        <h1>I design delightful digital experiences.</h1>
+        <p class="hero-copy">
+          Product designer and front-end developer focused on crafting polished, accessible, and
+          human-centered interfaces.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn ghost" href="#contact">Let’s Talk</a>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <h2>About me</h2>
+        <p>
+          I blend strategy, design, and code to build products that look great and feel effortless.
+          Over the last 6 years, I’ve helped startups and global brands launch experiences used by
+          millions.
+        </p>
+      </section>
+
+      <section class="section" id="projects">
+        <h2>Featured projects</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Pulse Finance</h3>
+            <p>A mobile-first finance dashboard with a 34% increase in user retention.</p>
+            <span>UX Design • Front-end</span>
+          </article>
+          <article class="card">
+            <h3>Orbit Health</h3>
+            <p>Accessible telehealth platform reducing appointment drop-off by 22%.</p>
+            <span>Product Strategy • Design System</span>
+          </article>
+          <article class="card">
+            <h3>Vivid Studio</h3>
+            <p>Interactive portfolio experience shortlisted for a CSS Design Award.</p>
+            <span>Creative Direction • Development</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <h2>Let’s build something amazing.</h2>
+        <p>Open to freelance projects, product design roles, and speaking opportunities.</p>
+        <a class="btn primary" href="mailto:alex@example.com">alex@example.com</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">© <span id="year"></span> Alex Morgan. Crafted with care.</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
